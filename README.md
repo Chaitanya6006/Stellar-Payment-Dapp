@@ -35,3 +35,27 @@ and transaction broadcasting via Horizon API.
 ###  Transaction Success
 <img width="1912" height="952" alt="Screenshot 2026-02-26 114512" src="https://github.com/user-attachments/assets/3fe897e7-479b-4498-bc1d-1b47eaacdac1" />
 
+
+## ⚙️ How It Works
+
+1. User connects Freighter Wallet.
+2. Public key is fetched using Freighter API.
+3. Account balance is loaded via Horizon Server.
+4. Transaction is built using Stellar SDK.
+5. Transaction is signed securely inside the wallet.
+6. Signed XDR is submitted to Stellar Testnet.
+7. On success, updated balance is displayed.
+
+
+   ## 🌍 Network
+
+This project runs on:
+
+Stellar Testnet  
+Horizon Endpoint: https://horizon-testnet.stellar.org
+
+## 👨‍💻 Author
+
+Developed by [Chaitanya Chaudhri]
+
+Blockchain & Web3 Enthusiast
